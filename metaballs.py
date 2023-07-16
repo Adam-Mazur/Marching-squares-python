@@ -29,7 +29,7 @@ class Vector:
         return self + other
 
     def __isub__(self, other):
-        return self + other
+        return self - other
 
     def __mul__(self, other):
         return Vector(self.x * other, self.y * other)
